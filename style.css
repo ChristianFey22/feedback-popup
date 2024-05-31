@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+body {
+  color: #000;
+  height: 100vh;
+  background-color: #dedddd;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-feedback {
+  width: 28rem;
+  height: 30rem;
+  background-color: #fff;
+  box-shadow: 0px 3px 30px #151a4158;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card-feedback svg {
+  border: 1px solid #e4e6f6;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  align-self: flex-end;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #151a41;
+  width: 78%;
+}
+
+.puntaje {
+  display: flex;
+  gap: 10px;
+}
+
+.puntaje button {
+  width: 63px;
+  height: 53px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #e4e6f6;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.satifaccion {
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+}
+
+.satifaccion p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.text-end {
+  text-align: end;
+}
+
+form {
+  width: 78%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form input {
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #989ece;
+}
+
+form label {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+}
+
+hr {
+  width: 78%;
+  height: 2px;
+  color: #e4e6f6;
+}
+
+.continuar {
+  width: 78%;
+  height: 69px;
+  background-color: #fff;
+  border: 1px solid #e4e6f6;
+  border-radius: 5px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #151a41;
+}
+
+button:hover {
+  background-color: #ff0099;
+  color: #fff;
+}
